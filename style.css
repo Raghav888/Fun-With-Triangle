@@ -1,0 +1,85 @@
+nav {
+    background-color: coral;
+    color: white;
+    padding: 2rem;
+    width: auto;
+    border-bottom-left-radius: 1 rem;
+}
+
+.nav-link {
+    text-align: right;
+    color: white;
+}
+
+nav .nav-bar {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding-right: 2rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    font-size: larger;
+    color: black;
+    font-weight: 800;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 12px;
+    outline: none;
+    font-size: large;
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-color: coral;
+}
+
+button {
+    border-radius: 10px;
+    font-size: larger;
+    padding: 5px;
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    border-color: coral;
+    background-color: coral;
+    color: white;
+}
+
+#output,
+#output-hypo,
+#output-area {
+    font-size: large;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+form {
+    text-align: center;
+}
+
+.question-container label {
+    display: flex;
+}

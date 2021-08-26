@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style1.css" rel="stylesheet" />
+    <title>Traingle Quiz</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            Fun with Triangle
+        </div>
+        <div class="nav-link">
+            <a href="index.html">Is Triangle ?</a>
+            <a href="hypo.html">Hypotenuse</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="Area.html">Area of Triangle</a>
+        </div>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <h2>For each correct answer you will get 1 point</h2>
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label><input type="radio" value="45" name="question1"/>45° </label>
+            <label><input type="radio" value="90" name="question1"/>90° </label>
+            <label> <input type="radio" value="60" name="question1" />60° </label>
+        </div>
+        <div class="question-container">
+            <p> If a triangle has an angle of 90 degrees, what is it called?</p>
+            <label><input type="radio" value="obtuse" name="question2"/>obtuse  </label>
+            <label><input type="radio" value="acute" name="question2"/>acute  </label>
+            <label> <input type="radio" value="right angled" name="question2" />right angled </label>
+        </div>
+
+    </form>
+    <button id="submit-ans">Submit</button>
+    <div class="outputmarks"></div>
+</body>
+<script src="quiz.js"></script>
+
+</html>
