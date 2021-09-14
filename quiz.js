@@ -3,7 +3,7 @@ const btn = document.querySelector("#submit-ans")
 const output = document.querySelector(".outputmarks")
 
 
-const ans = ["90", "right angled"]
+const ans = ["90", "right angled","Equilateral","85","no"]
 
 function checkAns() {
     let score = 0
