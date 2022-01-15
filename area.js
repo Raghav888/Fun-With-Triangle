@@ -3,14 +3,14 @@ const height = document.querySelector(".height-input")
 const btn = document.querySelector(".btn-area")
 const output = document.querySelector("#output-area")
 
-function calArea() {
+let calArea=()=> {
     if(base.value>0 && height.value>0 )
     {
     const area = (1 / 2) * base.value * height.value;
-    output.innerText = "Area is " + area
+    output.innerText = `Area is ${area}`
     }
     else{
-        output.innerText ="Enter positive number"
+        output.innerText =`Enter positive number`
     }
 }
 
